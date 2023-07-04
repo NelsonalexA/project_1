@@ -9,6 +9,7 @@ PLACE varchar(20)
 );
 
 select * from me.student;
+drop table me.student;
 insert into me.student values
 (1,"Nelson",12,"MDE","MEC","Rasipuram"),
 (2,"Karthi",8,"MDE","MEC","Rasipuram"),
